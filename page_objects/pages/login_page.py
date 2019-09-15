@@ -19,5 +19,5 @@ class LoginPage(BasePage):
         assert self.is_element_present(*LoginPageLocators.REGISTER_EMAIL_FORM), "Register email form is not presented"
         assert self.is_element_present(*LoginPageLocators.REGISTER_PASSWORD_FORM), \
             "Register password form is not presented"
-        assert self.is_element_present(*LoginPageLocators.REGISTER_PASSWORD_FORM), \
+        assert self.is_element_present(*LoginPageLocators.REGISTER_PASSWORD_CONFIRM_FORM), \
             "Register password confirm form is not presented"
