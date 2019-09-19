@@ -24,7 +24,6 @@ The project also presents autotests two different pages for guests and authorize
 ```
 pytest --tb=line test_main_page.py
 pytest --tb=line test_product_page.py
-pytest --tb=line test_main_page.py
 pytest --tb=line -m register_user
 pytest --tb=line -m login_guest
 ```
