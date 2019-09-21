@@ -13,8 +13,9 @@ selenium==3.14.0
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.
 ```
 git clone https://github.com/Artyko/Stepik-selenium-final-project.git
+cd Stepik-selenium-final-project
 pip install -r requirements.txt 
-cd Stepik-selenium-final-project/page_objects
+cd page_objects
 ```
 ## Running the tests
 Before running the tests, make sure that you are in the 'page_objects' folder.
