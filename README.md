@@ -5,13 +5,19 @@ The project implemented autotests based on a Page Object pattern for the [Traini
 
 
 ### Requirements
-
 ```
 pytest==5.1.1
 selenium==3.14.0
 ```
-
+### Getting started
+These instructions will get you a copy of the project up and running on your local machine for testing purposes.
+```
+git clone https://github.com/Artyko/Stepik-selenium-final-project.git
+cd Stepik-selenium-final-project/page_objects
+```
 ## Running the tests
+Before running the tests, make sure that you are in the 'page_objects' folder.
+
 To run the basic tests for a review:
 ```
 pytest -v --tb=line --language=en -m need_review
