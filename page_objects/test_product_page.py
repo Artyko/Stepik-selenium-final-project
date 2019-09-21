@@ -6,7 +6,8 @@ import time
 
 product_base_link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207"
 login_link = "http://selenium1py.pythonanywhere.com/accounts/login/"
-urls = [f"{product_base_link}/?promo=offer{no}" for no in range(10)]
+urls = [f"{product_base_link}/?promo=offer{no}"
+        if no != 7 else pytest.param(f"{product_base_link}/?promo=offer{no}", marks=pytest.mark.xfail) for no in range(10)]
 
 
 @pytest.mark.register_user
@@ -37,7 +38,6 @@ class TestUserAddToBasketFromProductPage:
 
 
 @pytest.mark.need_review
-@pytest.mark.xfail
 @pytest.mark.parametrize('link', urls)
 def test_guest_can_add_product_to_basket(browser, link):
     link = f"{link}"
