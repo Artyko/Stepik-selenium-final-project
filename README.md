@@ -1,7 +1,7 @@
-# Stepik selenium
-This is the final project for the course: [Автоматизация тестирования с помощью Selenium и Python](https://stepik.org/course/575)
+# Selenium with python
+This is the final project to the course: [Автоматизация тестирования с помощью Selenium и Python](https://stepik.org/course/575)
 
-The project implemented autotests for [Training site](http://selenium1py.pythonanywhere.com/) with using a pattern Page Object Model 
+The project implemented autotests based on a Page Object pattern for the [Training site](http://selenium1py.pythonanywhere.com/) 
 
 
 ### Requirements
@@ -19,7 +19,7 @@ pytest -v --tb=line --language=en -m need_review
 
 ### More tests
 
-The project also presents autotests two different pages for guests and authorized users:
+The project also presents autotests of two different pages for guests and authorized users:
 
 ```
 pytest --tb=line test_main_page.py
