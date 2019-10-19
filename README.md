@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Artyko/Stepik-selenium-final-project.svg?branch=master)](https://travis-ci.org/Artyko/Stepik-selenium-final-project)
+[![Coverage Status](https://coveralls.io/repos/github/Artyko/Stepik-selenium-final-project/badge.svg?branch=master)](https://coveralls.io/github/Artyko/Stepik-selenium-final-project?branch=master)
+
 # Selenium with python
 This is the final project to the course: [Автоматизация тестирования с помощью Selenium и Python](https://stepik.org/course/575)
 
