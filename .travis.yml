@@ -9,6 +9,7 @@ before_install:
   - pip install selenium
   - wget https://chromedriver.storage.googleapis.com/76.0.3809.126/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip
+  - export CHROME_BIN=chromium-browser
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
