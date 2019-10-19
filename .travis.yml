@@ -19,8 +19,5 @@ install:
   - pip install pytest-cov
   - pip install coveralls
 script:
-  - pytest --cov=page_objects
   - cd page_objects
   - pytest -v --tb=line --language=en -m need_review
-after_success:
-  - coveralls
